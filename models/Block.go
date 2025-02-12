@@ -31,6 +31,7 @@ func (b *Block) MineBlock(difficulty int) {
 	}
 	b.Hash = b.CalculateHash() // Initialize the hash before entering the loop
 	for b.Hash[:difficulty] != target {
+		fmt.Println("Mining block: ", b.Nonce)
 		b.Nonce++
 		b.Hash = b.CalculateHash()
 	}
