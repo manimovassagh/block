@@ -53,10 +53,16 @@ func main() {
 	bc := NewBlockchain()
 
 	fmt.Println("Mining block 1...")
-	bc.AddBlock(models.Block{Index: 1, Timestamp: time.Now().String(), Data: "Block 1 Data", PreviousHash: "", Hash: "", Nonce: 0})
+	bc.AddBlock(models.Block{Index: 1,
+		Timestamp: time.Now().String(),
+		Data:      "Block 1 Data", PreviousHash: "",
+		Hash: "", Nonce: 0})
 
 	fmt.Println("Mining block 2...")
-	bc.AddBlock(models.Block{Index: 2, Timestamp: time.Now().String(), Data: "Block 2 Data", PreviousHash: "", Hash: "", Nonce: 0})
+	bc.AddBlock(models.Block{Index: 2,
+		Timestamp: time.Now().String(),
+		Data:      "Block 2 Data", PreviousHash: "",
+		Hash: "", Nonce: 0})
 
 	fmt.Println("Blockchain valid?", bc.IsChainValid())
 
