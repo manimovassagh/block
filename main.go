@@ -14,7 +14,7 @@ type Blockchain struct {
 }
 
 func createGenesisBlock() models.Block {
-	return models.Block{0, time.Now().String(), "Genesis Block", "", "", 0}
+	return models.Block{Index: 0, Timestamp: time.Now().String(), Data: "Genesis Block", PreviousHash: "", Hash: "", Nonce: 0}
 }
 
 func (bc *Blockchain) GetLatestBlock() models.Block {
