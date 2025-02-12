@@ -35,5 +35,7 @@ func (b *Block) MineBlock(difficulty int) {
 		b.Nonce++
 		b.Hash = b.CalculateHash()
 	}
+	fmt.Println("************************************")
 	fmt.Println("BLOCK MINED: ", b.Hash)
+	fmt.Println("************************************")
 }
