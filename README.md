@@ -35,3 +35,9 @@ make docker-run     # Run the Docker container
 ```
 
 ## Example Output
+
+Base is this
+We have a genesis and block and next block
+any block has to have difficulty 0000 s on start of hash
+nounce would be the number that create this proper hash 
+this is mining
