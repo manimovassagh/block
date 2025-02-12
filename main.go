@@ -46,7 +46,7 @@ func (bc *Blockchain) IsChainValid() bool {
 func NewBlockchain() *Blockchain {
 	return &Blockchain{
 		Chain:      []models.Block{createGenesisBlock()},
-		Difficulty: 6,
+		Difficulty: 4,
 	}
 }
 func main() {
