@@ -36,8 +36,17 @@ make docker-run     # Run the Docker container
 
 ## Example Output
 
+
+
+
+0000000000000000000
+18b7e6456b26ae8cc31ba30461f3986cb720a7c92dec3
 Base is this
-We have a genesis and block and next block
-any block has to have difficulty 0000 s on start of hash
-nounce would be the number that create this proper hash 
+We have Three entities 
+genesis block  and normal block and next block
+any block has to have difficulty 0000 s on start of hash (depends on difficulty could be 1 or 4 or 10 etc )
+nounce would be the number that create this proper start 0000 numbers on begin of hash 
+that means we need a hash that data + previous hash and put some randome noance at beging and do it until we become 
+for example 0000 at begin of hash
+in that case the block is mined
 this is mining
