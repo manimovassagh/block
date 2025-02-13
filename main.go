@@ -29,7 +29,7 @@ func (bc *Blockchain) GetLatestBlock() models.Block {
 func (bc *Blockchain) AddBlock(newBlock models.Block) {
 	newBlock.PreviousHash = bc.GetLatestBlock().Hash
 	log.Printf("Adding new block with index %d and previous hash %s", newBlock.Index, newBlock.PreviousHash)
-	newBlock.MineBlock(bc.Difficulty) // Use stable MineBlock function
+	newBlock.MineBlockConcurrent(bc.Difficulty) // Use stable MineBlock function
 	bc.Chain = append(bc.Chain, newBlock)
 	log.Printf("Block added with hash %s", newBlock.Hash)
 	bc.PrintBlockchain()
@@ -64,7 +64,7 @@ func (bc *Blockchain) PrintBlockchain() {
 func NewBlockchain() *Blockchain {
 	return &Blockchain{
 		Chain:      []models.Block{createGenesisBlock()},
-		Difficulty: 6,
+		Difficulty: 7,
 	}
 }
 
@@ -88,7 +88,7 @@ func main() {
 	difficulty := 5 // Increase the difficulty level
 
 	log.Println("Starting mining process...")
-	block.MineBlock(difficulty) // Use stable MineBlock function
+	block.MineBlockConcurrent(difficulty) // Use stable MineBlock function
 	log.Println("Mining process completed")
 
 	blockchain := NewBlockchain()
