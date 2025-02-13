@@ -6,7 +6,7 @@ use std::fs::OpenOptions;
 use std::io::prelude::*;
 use colored::*;
 
-const DIFFICULTY: usize = 6;
+const DIFFICULTY: usize = 5;
 
 #[derive(Serialize, Deserialize)]
 struct Blockchain {
