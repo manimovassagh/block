@@ -10,7 +10,7 @@ import (
 	"github.com/manimovassagh/go-clock/models"
 )
 
-const DIFFICULTY = 6
+const DIFFICULTY = 5
 type Blockchain struct {
 	Chain      []models.Block
 	Difficulty int
