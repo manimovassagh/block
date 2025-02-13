@@ -751,3 +751,45 @@
   ],
   "Difficulty": 7
 }
+2025/02/13 22:13:27 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:13:27.8272 +0100 CET m=+4.700795126",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:13:23.126622 +0100 CET m=+0.000224417",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000003b98f2df7361680106bd801114616f2068316846206073cb8aaef0dac",
+      "Nonce": 22505789
+    }
+  ],
+  "Difficulty": 6
+}
+2025/02/13 22:13:27 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:13:27.8272 +0100 CET m=+4.700795126",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:13:23.126622 +0100 CET m=+0.000224417",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000003b98f2df7361680106bd801114616f2068316846206073cb8aaef0dac",
+      "Nonce": 22505789
+    }
+  ],
+  "Difficulty": 6
+}
