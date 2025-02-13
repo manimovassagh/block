@@ -10,10 +10,12 @@ import (
 	"github.com/manimovassagh/go-clock/models"
 )
 
+const DIFFICULTY = 6
 type Blockchain struct {
 	Chain      []models.Block
 	Difficulty int
 }
+
 
 func createGenesisBlock() models.Block {
 	return models.Block{
@@ -29,7 +31,7 @@ func (bc *Blockchain) GetLatestBlock() models.Block {
 func (bc *Blockchain) AddBlock(newBlock models.Block) {
 	newBlock.PreviousHash = bc.GetLatestBlock().Hash
 	log.Printf("Adding new block with index %d and previous hash %s", newBlock.Index, newBlock.PreviousHash)
-	newBlock.MineBlockConcurrent(bc.Difficulty) // Use stable MineBlock function
+	newBlock.MineBlock(bc.Difficulty) // Use stable MineBlock function
 	bc.Chain = append(bc.Chain, newBlock)
 	log.Printf("Block added with hash %s", newBlock.Hash)
 	bc.PrintBlockchain()
@@ -64,7 +66,7 @@ func (bc *Blockchain) PrintBlockchain() {
 func NewBlockchain() *Blockchain {
 	return &Blockchain{
 		Chain:      []models.Block{createGenesisBlock()},
-		Difficulty: 7,
+		Difficulty: DIFFICULTY,
 	}
 }
 
@@ -85,10 +87,8 @@ func main() {
 		PreviousHash: "",
 	}
 
-	difficulty := 5 // Increase the difficulty level
-
 	log.Println("Starting mining process...")
-	block.MineBlockConcurrent(difficulty) // Use stable MineBlock function
+	block.MineBlock(DIFFICULTY) // Use stable MineBlock function
 	log.Println("Mining process completed")
 
 	blockchain := NewBlockchain()

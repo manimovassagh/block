@@ -256,3 +256,152 @@
 2025/02/13 21:54:19 Starting mining process...
 2025/02/13 21:54:20 Mining process completed
 2025/02/13 21:54:20 Adding new block with index 1 and previous hash 
+2025/02/13 21:55:51 Starting mining process...
+2025/02/13 21:55:54 Mining process completed
+2025/02/13 21:55:54 Adding new block with index 1 and previous hash 
+2025/02/13 21:56:32 Starting mining process...
+2025/02/13 21:56:33 Mining process completed
+2025/02/13 21:56:33 Adding new block with index 1 and previous hash 
+2025/02/13 21:57:49 Starting mining process...
+2025/02/13 21:57:49 Mining process completed
+2025/02/13 21:57:49 Adding new block with index 1 and previous hash 
+2025/02/13 21:57:50 Block added with hash 00000032cea3d5cbad1aad040f19af8617f44017f6f49dee0274ec90347d191e
+2025/02/13 21:57:50 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 21:57:49.940858 +0100 CET m=+0.240353418",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 21:57:49.70102 +0100 CET m=+0.000515543",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000032cea3d5cbad1aad040f19af8617f44017f6f49dee0274ec90347d191e",
+      "Nonce": 553907
+    }
+  ],
+  "Difficulty": 6
+}
+2025/02/13 21:57:50 Blockchain is valid: true
+2025/02/13 21:57:50 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 21:57:49.940858 +0100 CET m=+0.240353418",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 21:57:49.70102 +0100 CET m=+0.000515543",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000032cea3d5cbad1aad040f19af8617f44017f6f49dee0274ec90347d191e",
+      "Nonce": 553907
+    }
+  ],
+  "Difficulty": 6
+}
+2025/02/13 22:01:10 Starting mining process...
+2025/02/13 22:01:10 Mining process completed
+2025/02/13 22:01:10 Adding new block with index 1 and previous hash 
+2025/02/13 22:01:10 Block added with hash 00002ffffb761d224b469c0535a20b603f53282444f30a7e0767e2bad5b5f230
+2025/02/13 22:01:10 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:01:10.159103 +0100 CET m=+0.052698459",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:01:10.106663 +0100 CET m=+0.000259168",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00002ffffb761d224b469c0535a20b603f53282444f30a7e0767e2bad5b5f230",
+      "Nonce": 19092
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 22:01:10 Blockchain is valid: true
+2025/02/13 22:01:10 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:01:10.159103 +0100 CET m=+0.052698459",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:01:10.106663 +0100 CET m=+0.000259168",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00002ffffb761d224b469c0535a20b603f53282444f30a7e0767e2bad5b5f230",
+      "Nonce": 19092
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 22:02:05 Starting mining process...
+2025/02/13 22:02:05 Mining process completed
+2025/02/13 22:02:05 Adding new block with index 1 and previous hash 
+2025/02/13 22:02:05 Block added with hash 0000b437c074ee79c897717c499c1ae87e47e8282d2ef58e231d4ea9ad983040
+2025/02/13 22:02:05 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:02:05.719525 +0100 CET m=+0.058406918",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:02:05.661741 +0100 CET m=+0.000622793",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000b437c074ee79c897717c499c1ae87e47e8282d2ef58e231d4ea9ad983040",
+      "Nonce": 19125
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 22:02:05 Blockchain is valid: true
+2025/02/13 22:02:05 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:02:05.719525 +0100 CET m=+0.058406918",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:02:05.661741 +0100 CET m=+0.000622793",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000b437c074ee79c897717c499c1ae87e47e8282d2ef58e231d4ea9ad983040",
+      "Nonce": 19125
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 22:02:23 Starting mining process...
+2025/02/13 22:02:38 Starting mining process...
