@@ -36,13 +36,8 @@ make docker-run     # Run the Docker container
 
 ## Example Output
 
-
-
-
-0000000000000000000
-18b7e6456b26ae8cc31ba30461f3986cb720a7c92dec3
 Base is this
-We have Three entities 
+We have Three entities
 genesis block  and normal block and next block
 any block has to have difficulty 0000 s on start of hash (depends on difficulty could be 1 or 4 or 10 etc )
 nounce would be the number that create this proper start 0000 numbers on begin of hash 
