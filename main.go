@@ -64,7 +64,7 @@ func (bc *Blockchain) PrintBlockchain() {
 func NewBlockchain() *Blockchain {
 	return &Blockchain{
 		Chain:      []models.Block{createGenesisBlock()},
-		Difficulty: 4,
+		Difficulty: 6,
 	}
 }
 

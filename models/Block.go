@@ -36,6 +36,7 @@ func (b *Block) MineBlock(difficulty int) {
 	b.Hash = b.CalculateHash() // Initialize the hash before entering the loop
 	for b.Hash[:difficulty] != target {
 		b.Nonce++
+		fmt.Println("Nonce: ", b.Nonce)
 		b.Hash = b.CalculateHash()
 	}
 	endTime := time.Now() // Record the end time

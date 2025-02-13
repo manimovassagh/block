@@ -3,3 +3,59 @@
 2025/02/13 21:39:22 Adding new block with index 1 and previous hash 
 2025/02/13 21:39:22 Block added with hash 000003a26cea4804921722c809dda1313ada685a98be1ee802edaefed378586c
 2025/02/13 21:39:22 Blockchain is valid: true
+2025/02/13 21:40:28 Starting mining process...
+2025/02/13 21:40:29 Mining process completed
+2025/02/13 21:40:29 Adding new block with index 1 and previous hash 
+2025/02/13 21:40:29 Block added with hash 0000021004a6dd4603498e2bc47a11d21fda74dc372c5e0ed12d1d6a9729faca
+2025/02/13 21:40:29 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 21:40:29.033872 +0100 CET m=+0.098032209",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 21:40:28.936203 +0100 CET m=+0.000363042",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000021004a6dd4603498e2bc47a11d21fda74dc372c5e0ed12d1d6a9729faca",
+      "Nonce": 307968
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 21:40:29 Blockchain is valid: true
+2025/02/13 21:40:29 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 21:40:29.033872 +0100 CET m=+0.098032209",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 21:40:28.936203 +0100 CET m=+0.000363042",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000021004a6dd4603498e2bc47a11d21fda74dc372c5e0ed12d1d6a9729faca",
+      "Nonce": 307968
+    }
+  ],
+  "Difficulty": 4
+}
+2025/02/13 21:41:33 Starting mining process...
+2025/02/13 21:41:33 Mining process completed
+2025/02/13 21:41:33 Adding new block with index 1 and previous hash 
+2025/02/13 21:42:02 Starting mining process...
+2025/02/13 21:42:03 Mining process completed
+2025/02/13 21:42:03 Adding new block with index 1 and previous hash 
+2025/02/13 21:42:19 Starting mining process...
+2025/02/13 21:42:19 Mining process completed
+2025/02/13 21:42:19 Adding new block with index 1 and previous hash 
