@@ -3,9 +3,10 @@ package models
 import (
 	"crypto/sha256"
 	"encoding/hex"
-	"fmt"
 	"strconv"
 	"time"
+
+	"github.com/fatih/color"
 )
 
 type Block struct {
@@ -35,12 +36,11 @@ func (b *Block) MineBlock(difficulty int) {
 	b.Hash = b.CalculateHash() // Initialize the hash before entering the loop
 	for b.Hash[:difficulty] != target {
 		b.Nonce++
-		fmt.Println("Nonce: ", b.Nonce)
 		b.Hash = b.CalculateHash()
 	}
 	endTime := time.Now() // Record the end time
-	fmt.Println("************************************")
-	fmt.Println("BLOCK MINED: ", b.Hash)
-	fmt.Println("Mining took: ", endTime.Sub(startTime))
-	fmt.Println("************************************")
+	color.Green("************************************")
+	color.Green("BLOCK MINED: %s", b.Hash)
+	color.Red("Mining took: %v", endTime.Sub(startTime))
+	color.Green("************************************")
 }

@@ -452,3 +452,260 @@
   ],
   "Difficulty": 5
 }
+2025/02/13 22:04:32 Starting mining process...
+2025/02/13 22:04:32 Mining process completed
+2025/02/13 22:04:32 Adding new block with index 1 and previous hash 
+2025/02/13 22:04:32 Block added with hash 0000085734cc5eed84e8b7400b6f82a5fcf0e9b65a8ac9d9f717019876fc0826
+2025/02/13 22:04:32 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:04:32.775962 +0100 CET m=+0.106215834",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:04:32.669992 +0100 CET m=+0.000246459",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000085734cc5eed84e8b7400b6f82a5fcf0e9b65a8ac9d9f717019876fc0826",
+      "Nonce": 363049
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:04:32 Blockchain is valid: true
+2025/02/13 22:04:32 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:04:32.775962 +0100 CET m=+0.106215834",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:04:32.669992 +0100 CET m=+0.000246459",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000085734cc5eed84e8b7400b6f82a5fcf0e9b65a8ac9d9f717019876fc0826",
+      "Nonce": 363049
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:05:44 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:05:44.971833 +0100 CET m=+0.175263126",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:05:44.796692 +0100 CET m=+0.000122584",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000b2ddabf66ea8492f46549448265ef78be88beec199d61fcd3c226fd52e9",
+      "Nonce": 721045
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:05:44 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:05:44.971833 +0100 CET m=+0.175263126",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:05:44.796692 +0100 CET m=+0.000122584",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000b2ddabf66ea8492f46549448265ef78be88beec199d61fcd3c226fd52e9",
+      "Nonce": 721045
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:25 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:25.732335 +0100 CET m=+0.019661085",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:25.712801 +0100 CET m=+0.000127501",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000674252c3e30d2614c7ec70407223f7ddd0ed2e9c43a09d2c7190a27ae93",
+      "Nonce": 40792
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:25 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:25.732335 +0100 CET m=+0.019661085",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:25.712801 +0100 CET m=+0.000127501",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000674252c3e30d2614c7ec70407223f7ddd0ed2e9c43a09d2c7190a27ae93",
+      "Nonce": 40792
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:42 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:42.324092 +0100 CET m=+0.068139043",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:42.256027 +0100 CET m=+0.000074668",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000081b703f7b9fe6e349313a37fd1e7836b399111adcb5a414e7d7fa79314b",
+      "Nonce": 283415
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:42 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:42.324092 +0100 CET m=+0.068139043",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:42.256027 +0100 CET m=+0.000074668",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "0000081b703f7b9fe6e349313a37fd1e7836b399111adcb5a414e7d7fa79314b",
+      "Nonce": 283415
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:49 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:49.404758 +0100 CET m=+0.302113251",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:49.102716 +0100 CET m=+0.000072501",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000bc3353ac24181462f4f9b2a038725423594f87400bb5599f8272c1b5098",
+      "Nonce": 1426487
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:06:49 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:06:49.404758 +0100 CET m=+0.302113251",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:06:49.102716 +0100 CET m=+0.000072501",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "00000bc3353ac24181462f4f9b2a038725423594f87400bb5599f8272c1b5098",
+      "Nonce": 1426487
+    }
+  ],
+  "Difficulty": 5
+}
+2025/02/13 22:07:08 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:07:08.299625 +0100 CET m=+3.163321793",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:07:05.136415 +0100 CET m=+0.000117210",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "000000dfc545def93e299526e010a36722e51b103f2ff84c5320fbbdfa57958b",
+      "Nonce": 15191075
+    }
+  ],
+  "Difficulty": 6
+}
+2025/02/13 22:07:08 {
+  "Chain": [
+    {
+      "Index": 0,
+      "Timestamp": "2025-02-13 22:07:08.299625 +0100 CET m=+3.163321793",
+      "Data": "Genesis Block",
+      "PreviousHash": "",
+      "Hash": "",
+      "Nonce": 0
+    },
+    {
+      "Index": 1,
+      "Timestamp": "2025-02-13 22:07:05.136415 +0100 CET m=+0.000117210",
+      "Data": "Block 1 Data",
+      "PreviousHash": "",
+      "Hash": "000000dfc545def93e299526e010a36722e51b103f2ff84c5320fbbdfa57958b",
+      "Nonce": 15191075
+    }
+  ],
+  "Difficulty": 6
+}
