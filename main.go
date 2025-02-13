@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"time"
 
@@ -26,7 +25,7 @@ func (bc *Blockchain) GetLatestBlock() models.Block {
 
 func (bc *Blockchain) AddBlock(newBlock models.Block) {
 	newBlock.PreviousHash = bc.GetLatestBlock().Hash
-	newBlock.MineBlock(bc.Difficulty)
+	newBlock.MineBlock(bc.Difficulty) // Update function call
 	bc.Chain = append(bc.Chain, newBlock)
 }
 
@@ -52,23 +51,21 @@ func NewBlockchain() *Blockchain {
 		Difficulty: 4,
 	}
 }
+
 func main() {
-	bc := NewBlockchain()
+	block := models.Block{
+		Index:        1,
+		Timestamp:    time.Now().String(),
+		Data:         "Block 1 Data",
+		PreviousHash: "",
+	}
 
-	fmt.Println("Mining block 1...")
-	bc.AddBlock(models.Block{Index: 1,
-		Timestamp: time.Now().String(),
-		Data:      "Block 1 Data", PreviousHash: "",
-		Hash: "", Nonce: 0})
+	difficulty := 5 // Increase the difficulty level
 
-	fmt.Println("Mining block 2...")
-	bc.AddBlock(models.Block{Index: 2,
-		Timestamp: time.Now().String(),
-		Data:      "Block 2 Data", PreviousHash: "",
-		Hash: "", Nonce: 0})
+	fmt.Println("Mining block with concurrency...")
+	block.MineBlock(difficulty) // Update function call
 
-	fmt.Println("Blockchain valid?", bc.IsChainValid())
-
-	blockchainJSON, _ := json.MarshalIndent(bc, "", "  ")
-	fmt.Println(string(blockchainJSON))
+	block.Nonce = 0 // Reset nonce for fair comparison
+	fmt.Println("Mining block without concurrency...")
+	block.MineBlockOld(difficulty)
 }

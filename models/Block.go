@@ -26,6 +26,7 @@ func (b *Block) CalculateHash() string {
 	return hex.EncodeToString(hashed)
 }
 
+// MineBlock function with concurrency
 func (b *Block) MineBlock(difficulty int) {
 	startTime := time.Now() // Record the start time
 
@@ -67,4 +68,24 @@ func (b *Block) MineBlock(difficulty int) {
 	}
 
 	wg.Wait()
+}
+
+// Old MineBlock function without concurrency
+func (b *Block) MineBlockOld(difficulty int) {
+	startTime := time.Now() // Record the start time
+
+	target := ""
+	for i := 0; i < difficulty; i++ {
+		target += "0"
+	}
+	b.Hash = b.CalculateHash() // Initialize the hash before entering the loop
+	for b.Hash[:difficulty] != target {
+		b.Nonce++
+		b.Hash = b.CalculateHash()
+	}
+	endTime := time.Now() // Record the end time
+	fmt.Println("************************************")
+	fmt.Println("BLOCK MINED: ", b.Hash)
+	fmt.Println("Mining took: ", endTime.Sub(startTime))
+	fmt.Println("************************************")
 }
