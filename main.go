@@ -25,7 +25,7 @@ func (bc *Blockchain) GetLatestBlock() models.Block {
 
 func (bc *Blockchain) AddBlock(newBlock models.Block) {
 	newBlock.PreviousHash = bc.GetLatestBlock().Hash
-	newBlock.MineBlock(bc.Difficulty) // Update function call
+	newBlock.MineBlock(bc.Difficulty) // Use stable MineBlock function
 	bc.Chain = append(bc.Chain, newBlock)
 }
 
@@ -62,10 +62,6 @@ func main() {
 
 	difficulty := 5 // Increase the difficulty level
 
-	fmt.Println("Mining block with concurrency...")
-	block.MineBlock(difficulty) // Update function call
-
-	block.Nonce = 0 // Reset nonce for fair comparison
-	fmt.Println("Mining block without concurrency...")
-	block.MineBlockOld(difficulty)
+	fmt.Println("Mining block...")
+	block.MineBlock(difficulty) // Use stable MineBlock function
 }
