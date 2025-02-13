@@ -5,6 +5,8 @@ import (
 	"encoding/hex"
 	"fmt"
 	"strconv"
+	"sync"
+	"time"
 )
 
 type Block struct {
@@ -25,17 +27,44 @@ func (b *Block) CalculateHash() string {
 }
 
 func (b *Block) MineBlock(difficulty int) {
+	startTime := time.Now() // Record the start time
+
 	target := ""
 	for i := 0; i < difficulty; i++ {
 		target += "0"
 	}
-	b.Hash = b.CalculateHash() // Initialize the hash before entering the loop
-	for b.Hash[:difficulty] != target {
-		fmt.Println("Mining block: ", b.Nonce)
-		b.Nonce++
-		b.Hash = b.CalculateHash()
+
+	var wg sync.WaitGroup
+	found := make(chan bool)
+	var mu sync.Mutex
+	var once sync.Once
+
+	for i := 0; i < 4; i++ { // Create 4 goroutines for concurrent mining
+		wg.Add(1)
+		go func() {
+			defer wg.Done()
+			for {
+				select {
+				case <-found:
+					return
+				default:
+					mu.Lock()
+					b.Nonce++
+					b.Hash = b.CalculateHash()
+					mu.Unlock()
+					if b.Hash[:difficulty] == target {
+						endTime := time.Now() // Record the end time
+						fmt.Println("************************************")
+						fmt.Println("BLOCK MINED: ", b.Hash)
+						fmt.Println("Mining took: ", endTime.Sub(startTime))
+						fmt.Println("************************************")
+						once.Do(func() { close(found) })
+						return
+					}
+				}
+			}
+		}()
 	}
-	fmt.Println("************************************")
-	fmt.Println("BLOCK MINED: ", b.Hash)
-	fmt.Println("************************************")
+
+	wg.Wait()
 }
