@@ -502,3 +502,45 @@
   ],
   "difficulty": 4
 }
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1739749267,
+      "data": "Genesis Block",
+      "previous_hash": "",
+      "hash": "",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": 1739749267,
+      "data": "Block 1 Data",
+      "previous_hash": "",
+      "hash": "00009c6bed8d2252287856d9df09ae9ba7e91930e83803bb244bf635f874bdc6",
+      "nonce": 43074
+    }
+  ],
+  "difficulty": 4
+}
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1739749267,
+      "data": "Genesis Block",
+      "previous_hash": "",
+      "hash": "",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": 1739749267,
+      "data": "Block 1 Data",
+      "previous_hash": "",
+      "hash": "00009c6bed8d2252287856d9df09ae9ba7e91930e83803bb244bf635f874bdc6",
+      "nonce": 43074
+    }
+  ],
+  "difficulty": 4
+}
