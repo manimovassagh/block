@@ -124,3 +124,45 @@
   ],
   "difficulty": 6
 }
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1739717564,
+      "data": "Genesis Block",
+      "previous_hash": "",
+      "hash": "",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": 1739717564,
+      "data": "Block 1 Data",
+      "previous_hash": "",
+      "hash": "0000492df45a5eaa62df6a1e6025fee187561246d02426513d2e172719c1430e",
+      "nonce": 35730
+    }
+  ],
+  "difficulty": 4
+}
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 1739717564,
+      "data": "Genesis Block",
+      "previous_hash": "",
+      "hash": "",
+      "nonce": 0
+    },
+    {
+      "index": 1,
+      "timestamp": 1739717564,
+      "data": "Block 1 Data",
+      "previous_hash": "",
+      "hash": "0000492df45a5eaa62df6a1e6025fee187561246d02426513d2e172719c1430e",
+      "nonce": 35730
+    }
+  ],
+  "difficulty": 4
+}
